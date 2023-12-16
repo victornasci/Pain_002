@@ -6,6 +6,8 @@ import LogoSubway from "../../assets/img/patrocinadores/subway.png";
 import LogoMotorola from "../../assets/img/patrocinadores/motorola.png";
 import LogoJbl from "../../assets/img/patrocinadores/jbl.png";
 
+import "./script.js"
+
 export const Patrocinadores = () => {
     return (
         <div className="Est_Pat Cen_001">
@@ -37,7 +39,11 @@ export const Patrocinadores = () => {
                         <img src={LogoJbl} />
                     </div>
                 </div>
+
+                {/* <!--- Lista | Duplicado ---> */}
+                <div class="Est_Pat_Int_Lis" data-role="double-content" aria-hidden="true"></div>
             </div>
         </div>
+
     );
 };
