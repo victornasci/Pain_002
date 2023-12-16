@@ -1,5 +1,5 @@
 header {
-    max-height: calc(100px - (2rem + 2rem));
+
     width: 100%;
     padding: 20px 0;
     margin: 0 auto 10px auto;
@@ -25,8 +25,7 @@ header {
 }
 
 /* Logo Container */
-.Hea_Con_Log {
-}
+.Hea_Con_Log {}
 
 /* Logo Gif */
 .Hea_Gif_Log {
@@ -35,8 +34,7 @@ header {
 
 /* Icones Redes Sociais */
 
-.Hea_Red_Soc {
-}
+.Hea_Red_Soc {}
 
 .Hea_Red_Soc figcaption {
     display: flex;
@@ -49,8 +47,7 @@ header {
 }
 
 /* Parte da procura Carrinho e Lupa */
-.Hea_Sea {
-}
+.Hea_Sea {}
 
 .Hea_Sea nav {
     display: flex;
