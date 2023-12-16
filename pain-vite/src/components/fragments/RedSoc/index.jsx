@@ -1,3 +1,6 @@
+// Styles
+import "./styles.css";
+
 // Importaação Icones Fontwelson Solid
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -14,7 +17,7 @@ export const RedSoc = () => {
   return (
     <div className="Hea_Red_Soc">
       <figcaption>
-        <FontAwesomeIcon icon={faSquareXTwitter} className="icone" />
+        <FontAwesomeIcon  icon={faSquareXTwitter} className="icone" />
         <FontAwesomeIcon icon={faInstagram} className="icone" />
         <FontAwesomeIcon icon={faYoutube} className="icone" />
         <FontAwesomeIcon icon={faTiktok} className="icone" />
