@@ -44,7 +44,7 @@ export const AboutUs = () => {
             <img src={LogoOffice} />
           </div>
 
-          {/* <div className="Sob_Nos_Int_002_Tit">
+          <div className="Sob_Nos_Int_002_Tit">
             <span style={{ "--i": "1" }}>P</span>
             <span style={{ "--i": "2" }}>A</span>
             <span style={{ "--i": "3" }}>I</span>
@@ -56,7 +56,7 @@ export const AboutUs = () => {
             <span style={{ "--i": "9" }}>I</span>
             <span style={{ "--i": "10" }}>N</span>
             <span style={{ "--i": "11" }}>G</span>
-          </div> */}
+          </div>
 
           <div className="Sob_Nos_Int_002_Gal">
             <div className="Sob_Nos_Int_002_Gal_Ite Img_001">

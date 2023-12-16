@@ -8,13 +8,13 @@
     padding: 0;
 }
 
-html,
+/* html,
 body {
     height: 100%;
     min-height: 100vh;
-}
+} */
 
-body {
+/* body {
     display: grid;
     place-items: center;
     font-family: "League Spartan", system-ui, sans-serif;
@@ -22,11 +22,11 @@ body {
     line-height: 1.2;
     background-color: #212121;
     color: #ddd;
-}
+} */
 
-ul {
+/* ul {
     list-style: none;
-}
+} */
 
 .main {
     /* max-width: 75rem; */
@@ -47,7 +47,7 @@ ul {
 
 .cards {
     position: relative;
-max-width: 1300px;
+    max-width: 1300px;
 }
 
 .cards__inner {
@@ -68,6 +68,7 @@ max-width: 1300px;
     background-color: #2b2b2b;
     border: 1px solid #eceff133;
     border-radius: 24px;
+    background: black;
 }
 
 .card:nth-child(1) {
@@ -110,12 +111,12 @@ max-width: 1300px;
     line-height: 1.4;
 }
 
-.card__bullets li::before {
+/* .card__bullets li::before {
     display: inline-block;
     content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='16' title='check' fill='%23dddddd'%3E%3Cpath d='M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z' /%3E%3C/svg%3E");
     transform: translatey(0.25ch);
     margin-right: 1ch;
-}
+} */
 
 .card__heading {
     font-size: 1.05em;
@@ -127,7 +128,7 @@ max-width: 1300px;
     font-weight: 700;
 }
 
-.flow>*+* {
+.flow > * + * {
     margin-top: var(--flow-space, 1.25em);
 }
 
@@ -151,12 +152,16 @@ max-width: 1300px;
     pointer-events: none;
     user-select: none;
     opacity: var(--opacity, 0);
-    -webkit-mask: radial-gradient(25rem 25rem at var(--x) var(--y),
-            #000 1%,
-            transparent 50%);
-    mask: radial-gradient(25rem 25rem at var(--x) var(--y),
-            #000 1%,
-            transparent 50%);
+    -webkit-mask: radial-gradient(
+        25rem 25rem at var(--x) var(--y),
+        #000 1%,
+        transparent 50%
+    );
+    mask: radial-gradient(
+        25rem 25rem at var(--x) var(--y),
+        #000 1%,
+        transparent 50%
+    );
     transition: 400ms mask ease;
     will-change: mask;
 }
@@ -175,12 +180,12 @@ max-width: 1300px;
     box-shadow: 0 0 0 1px hsl(var(--hsl));
 }
 
-:not(.overlay)>.card {
-    transition: 400ms background ease;
-    will-change: background;
+:not(.overlay) > .card {
+    /* transition: 400ms background ease;
+    will-change: background; */
 }
 
-:not(.overlay)>.card:hover {
-    --lightness: 95%;
-    background: hsla(var(--hsl), 0.1);
+:not(.overlay) > .card:hover {
+    /* --lightness: 95%;
+    background: hsla(var(--hsl), 0.1); */
 }

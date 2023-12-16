@@ -56,10 +56,13 @@ export const Patrocinadores = () => {
             <div className="Est_Pat_Int_Lis_Ite">
               <img src={LogoMotorola} />
             </div>
-
             {/* Item */}
             <div className="Est_Pat_Int_Lis_Ite">
               <img src={LogoJbl} />
+
+                {/* <!--- Lista | Duplicado ---> */}
+                {/* <div class="Est_Pat_Int_Lis" data-role="double-content" aria-hidden="true"></div> */}
+
             </div>
           </div>
 
