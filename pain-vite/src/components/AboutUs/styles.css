@@ -43,19 +43,29 @@
     }
 }
 
-/* .Sob_Nos_Int_003 h2 {
+/* .Sob_Nos_Int_002 h2 {
     color: var(--Tex002);
     text-align: center;
     font-size: 60px;
 } */
 
-.Sob_Nos_Int_003_Tit {
+.Sob_Nos_Int_002 .Sob_Nos_Int_002_Img {
+    max-width: 430px;
+    margin: 60px auto 30px auto;
+}
+
+.Sob_Nos_Int_002 .Sob_Nos_Int_002_Img img{
+    width: 100%;
+}
+
+.Sob_Nos_Int_002_Tit {
     position: relative;
     display: flex;
     justify-content: center;
     border-bottom: 1px solid red;
 }
-.Sob_Nos_Int_003_Tit span {
+
+.Sob_Nos_Int_002_Tit span {
     text-align: center;
     position: relative;
     display: inline-block;
@@ -75,7 +85,7 @@
     }
 }
 
-.Sob_Nos_Int_003 .Sob_Nos_Int_003_Gal {
+.Sob_Nos_Int_002 .Sob_Nos_Int_002_Gal {
     display: grid;
     grid-template-areas:
         "Imagem001 Imagem001 Imagem001 Imagem001"
@@ -83,36 +93,36 @@
     gap: 4px;
 }
 
-.Sob_Nos_Int_003 .Sob_Nos_Int_003_Gal .Sob_Nos_Int_003_Gal_Ite {
+.Sob_Nos_Int_002 .Sob_Nos_Int_002_Gal .Sob_Nos_Int_002_Gal_Ite {
     position: relative;
 }
 
-.Sob_Nos_Int_003
-    .Sob_Nos_Int_003_Gal
-    .Sob_Nos_Int_003_Gal_Ite:hover
-    .Sob_Nos_Int_003_Gal_Ite_Tex {
+.Sob_Nos_Int_002
+    .Sob_Nos_Int_002_Gal
+    .Sob_Nos_Int_002_Gal_Ite:hover
+    .Sob_Nos_Int_002_Gal_Ite_Tex {
     display: flex;
     transition: 1s all linear;
 }
 
-.Sob_Nos_Int_003 .Sob_Nos_Int_003_Gal .Img_001 {
+.Sob_Nos_Int_002 .Sob_Nos_Int_002_Gal .Img_001 {
     grid-area: Imagem001;
 }
-.Sob_Nos_Int_003 .Sob_Nos_Int_003_Gal .Img_002 {
+.Sob_Nos_Int_002 .Sob_Nos_Int_002_Gal .Img_002 {
     grid-area: Imagem002;
 }
-.Sob_Nos_Int_003 .Sob_Nos_Int_003_Gal .Img_003 {
+.Sob_Nos_Int_002 .Sob_Nos_Int_002_Gal .Img_003 {
     grid-area: Imagem003;
 }
-.Sob_Nos_Int_003 .Sob_Nos_Int_003_Gal .Sob_Nos_Int_003_Gal_Ite img {
+.Sob_Nos_Int_002 .Sob_Nos_Int_002_Gal .Sob_Nos_Int_002_Gal_Ite img {
     width: 100%;
 }
 
 /* Texto da Imagem */
-.Sob_Nos_Int_003
-    .Sob_Nos_Int_003_Gal
-    .Sob_Nos_Int_003_Gal_Ite
-    .Sob_Nos_Int_003_Gal_Ite_Tex {
+.Sob_Nos_Int_002
+    .Sob_Nos_Int_002_Gal
+    .Sob_Nos_Int_002_Gal_Ite
+    .Sob_Nos_Int_002_Gal_Ite_Tex {
     color: var(--Tex002);
     position: absolute;
     /* bottom: 20px;
@@ -126,7 +136,7 @@
     transition: 0.4s all linear;
 }
 
-.Sob_Nos_Int_003_Gal_Ite_Tex h2 {
+.Sob_Nos_Int_002_Gal_Ite_Tex h2 {
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -136,7 +146,7 @@
     align-items: center;
 }
 
-.Sob_Nos_Int_003_Gal_Ite_Tex h2::before {
+.Sob_Nos_Int_002_Gal_Ite_Tex h2::before {
     content: "";
     width: 50px;
     height: 50px;
@@ -146,22 +156,22 @@
     transition: 0.4s all linear;
 }
 
-.Sob_Nos_Int_003_Gal_Ite_Tex h2,
-.Sob_Nos_Int_003_Gal_Ite_Tex p {
+.Sob_Nos_Int_002_Gal_Ite_Tex h2,
+.Sob_Nos_Int_002_Gal_Ite_Tex p {
     margin: 0 0 0 20px;
     position: relative;
     z-index: 2;
 }
 
-.Sob_Nos_Int_003_Gal_Ite_Tex p {
+.Sob_Nos_Int_002_Gal_Ite_Tex p {
     font-size: 18px;
     margin: 0 0 20px 20px;
 }
 
-.Sob_Nos_Int_003
-    .Sob_Nos_Int_003_Gal
-    .Sob_Nos_Int_003_Gal_Ite
-    .Sob_Nos_Int_003_Gal_Ite_Tex::after {
+.Sob_Nos_Int_002
+    .Sob_Nos_Int_002_Gal
+    .Sob_Nos_Int_002_Gal_Ite
+    .Sob_Nos_Int_002_Gal_Ite_Tex::after {
     content: "";
     width: 100%;
     height: 100%;
