@@ -41,7 +41,7 @@ export const Patrocinadores = () => {
                 </div>
 
                 {/* <!--- Lista | Duplicado ---> */}
-                <div class="Est_Pat_Int_Lis" data-role="double-content" aria-hidden="true"></div>
+                {/* <div class="Est_Pat_Int_Lis" data-role="double-content" aria-hidden="true"></div> */}
             </div>
         </div>
 

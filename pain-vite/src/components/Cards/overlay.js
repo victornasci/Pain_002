@@ -14,11 +14,11 @@ function initPage() {
     };
 
     const createOverlayCta = (overlayCard, ctaEl) => {
-        const overlayCta = document.createElement("div");
-        overlayCta.classList.add("cta");
-        overlayCta.textContent = ctaEl.textContent;
-        overlayCta.setAttribute("aria-hidden", true);
-        overlayCard.append(overlayCta);
+        // const overlayCta = document.createElement("div");
+        // overlayCta.classList.add("cta");
+        // overlayCta.textContent = ctaEl.textContent;
+        // overlayCta.setAttribute("aria-hidden", true);
+        // overlayCard.append(overlayCta);
     };
 
     const observer = new ResizeObserver((entries) => {

@@ -115,3 +115,42 @@ button:focus-visible {
 *::-webkit-scrollbar-track {
     background: black;
 }
+
+
+/* Animaçoes */
+
+@keyframes ScrollRight {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(calc(0% - var(--gap)));
+    }
+}
+
+@keyframes ScrollLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-100% - var(--gap)));
+    }
+}
+
+@keyframes ScrollUp {
+    from {
+        transform: translateY(calc(0% - var(--gap)));
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes ScrollDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(calc(0% - var(--gap)));
+    }
+}

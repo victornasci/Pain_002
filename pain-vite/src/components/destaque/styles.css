@@ -1,21 +1,33 @@
 .Sec_Des {
-    width: 100%;
+    /* width: 100%;
     height: calc(100vh - 100px);
     max-height: calc(100vh - 100px);
     display: flex;
     justify-content: center;
     margin: 0 auto 0 auto;
-    overflow: hidden;
-
-}
+    overflow: hidden; */
+    margin: 0 0 200px 0;}
 
 /* Container */
 .Sec_Des_Con {
-    display: grid;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    max-height: 620px;
+    overflow: hidden;
+    /* display: grid;
     grid-template-columns: 1.0fr 1fr;
     place-items: start;
     max-height: 100%;
     max-width: 1300px;
-    gap: 20px;
+    gap: 20px; */
+}
 
+.Sec_Des_Con_Img_Pri {
+    max-width: 500px;
+}
+
+.Sec_Des_Con_Img_Sec {
+    width: calc(100% - 500px - 20px);
+    max-width: 630px;
 }
