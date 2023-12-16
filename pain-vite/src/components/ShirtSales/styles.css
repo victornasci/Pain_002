@@ -1,14 +1,12 @@
 .ContainerCards {
     display: flex;
     justify-content: center;
-
 }
 
 .Container_Ul {
     background-color: white;
     border-radius: 18px;
     max-width: 1300px;
-
 }
 
 .Container_Card {
@@ -25,7 +23,7 @@
     display: flex;
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-   
+
     background-color: black;
 }
 
@@ -35,6 +33,8 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 
@@ -42,7 +42,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-
 }
 
 .Con_Tam .radio-input:nth-child(1) {
@@ -52,17 +51,14 @@
 .Con_Tam .radio-input {
     display: flex;
     justify-content: center;
-
 }
 
 .Con_Tam .radio-input input {
-
     border: 1px solid red;
 }
 
 figcaption {
     width: calc(100% - 20px);
-
 }
 
 figcaption img {
@@ -100,15 +96,12 @@ figcaption img {
 
 .Con_Des_Item span p {
     margin: 0px;
-
 }
 
 figcaption img {
     width: 100%;
     height: 100%;
 }
-
-
 
 .radio-input {
     display: flex;
@@ -126,27 +119,31 @@ figcaption img {
     border-radius: 12px;
     cursor: pointer;
     vertical-align: middle;
-    box-shadow: hsla(0, 0%, 100%, .15) 0 1px 1px, inset hsla(0, 0%, 0%, .5) 0 0 0 1px;
-    background-color: hsla(0, 0%, 0%, .2);
-    background-image: -webkit-radial-gradient(hsla(200, 100%, 90%, 1) 0%, red 15%, rgba(255, 0, 0, 0.418) 28%, hsla(200, 100%, 30%, 0) 70%);
+    box-shadow: hsla(0, 0%, 100%, 0.15) 0 1px 1px,
+        inset hsla(0, 0%, 0%, 0.5) 0 0 0 1px;
+    background-color: hsla(0, 0%, 0%, 0.2);
+    background-image: -webkit-radial-gradient(
+        hsla(200, 100%, 90%, 1) 0%,
+        red 15%,
+        rgba(255, 0, 0, 0.418) 28%,
+        hsla(200, 100%, 30%, 0) 70%
+    );
     background-repeat: no-repeat;
-    -webkit-transition: background-position .15s cubic-bezier(.8, 0, 1, 1),
-        -webkit-transform .25s cubic-bezier(.8, 0, 1, 1);
+    -webkit-transition: background-position 0.15s cubic-bezier(0.8, 0, 1, 1),
+        -webkit-transform 0.25s cubic-bezier(0.8, 0, 1, 1);
     outline: none;
-
 }
 
 .input:checked {
-    -webkit-transition: background-position .2s .15s cubic-bezier(0, 0, .2, 1),
-        -webkit-transform .25s cubic-bezier(0, 0, .2, 1);
+    -webkit-transition: background-position 0.2s 0.15s
+            cubic-bezier(0, 0, 0.2, 1),
+        -webkit-transform 0.25s cubic-bezier(0, 0, 0.2, 1);
 }
 
 .input:active {
     -webkit-transform: scale(1.5);
-    -webkit-transition: -webkit-transform .1s cubic-bezier(0, 0, .2, 1);
+    -webkit-transition: -webkit-transform 0.1s cubic-bezier(0, 0, 0.2, 1);
 }
-
-
 
 /* The up/down direction logic */
 
@@ -159,15 +156,14 @@ figcaption img {
     background-position: 0 0;
 }
 
-.input:checked~.input,
-.input:checked~.input:active {
+.input:checked ~ .input,
+.input:checked ~ .input:active {
     background-position: 0 -24px;
 }
 
 .Con_Buttons {
     width: calc(1005 - 20px);
     padding: 10px;
-
 }
 
 .Con_Buttons button {

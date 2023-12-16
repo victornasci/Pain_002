@@ -10,7 +10,7 @@ import ImgPriDes from "../ImgPriDes";
 
 export const Destaque = () => {
   return (
-    <section className="Sec_Des">
+    <section className="Sec_Des Cen_001">
       <div className="Sec_Des_Con">
         {/* <div className="ajuste"></div> */}
         <ImgPriDes></ImgPriDes>
