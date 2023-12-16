@@ -1,6 +1,7 @@
 .His_Are_Ext {
     /* // Linha do tempo geral */
 }
+
 .Lin_Tem_Are_Ger {
     position: relative;
     width: 100%;
@@ -14,6 +15,7 @@
 
     /* // Centralizador */
 }
+
 .Lin_Tem_Ite_Cen {
     left: 0;
     right: 0;
@@ -39,7 +41,7 @@
 
 /* // Linha da barra */
 .Lin_Tem_Ite_Bar_Fil {
-    background: red;
+    background: var(--Bkg000);
     position: absolute;
     left: 0;
     right: 0;
@@ -60,48 +62,50 @@
     min-height: 200px;
     position: relative;
     display: flex;
+}
 
-    &::after {
-        display: block;
-        content: " ";
-        clear: both;
-        padding-bottom: 30px;
-    }
+.Lin_Tem_Ite_Sta_Sta::after {
+    display: block;
+    content: " ";
+    clear: both;
+    padding-bottom: 30px;
+}
 
-    &:nth-child(2n + 2) {
-        justify-content: flex-end;
+.Lin_Tem_Ite_Sta_Sta:nth-child(2n + 2) {
+    justify-content: flex-end;
 
-        /* // Phone */
-        /* @media @phone {
-            justify-content: unset;
-        } */
-    }
+    /* // Phone */
+    /* @media @phone {
+        justify-content: unset;
+    } */
+}
 
-    /* // Icone do item */
-    .Lin_Tem_Ite_Sta_Sta_Ico {
-        width: 63px;
-        height: 63px;
-        border-radius: 50%;
-        box-shadow: 0px 0px 19px -9px #000;
-        position: absolute;
-        top: 0;
-        background: red url(/a-belov/imagens/css/bkg-ico-tml.png)
-            no-repeat center center;
-        z-index: 2;
+.Lin_Tem_Ite_Sta_Sta:nth-child(even) .Lin_Tem_Ite_Sta_Sta_Con {
+    border-radius: 0px 60px 60px 60px;
+}
 
-        /* // Phone */
-        /* @media @phone {
-            right: auto;
-            left: 7px;
-        } */
-    }
+/* // Icone do item */
+.Lin_Tem_Ite_Sta_Sta .Lin_Tem_Ite_Sta_Sta_Ico {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 19px -9px #000;
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0) url(../../assets/img/logo_branca.png) no-repeat
+        center center;
+    z-index: 2;
+
+    background-size: contain;
+    border: solid 1px red;
 }
 
 /* // Conteudo */
 .Lin_Tem_Ite_Sta_Sta_Con {
     width: 42%;
     padding: 30px;
-    background: red;
+    background: var(--Bkg001);
+    border: 1px solid var(--Bkg002);
     border-radius: 60px 0 60px 60px;
     float: left;
     opacity: 0;
@@ -123,30 +127,40 @@
         float: none;
         opacity: 0;
     } */
+}
 
-    &:nth-child(2n + 2) {
-        float: right;
-        margin-right: -40%;
-    }
+.Lin_Tem_Ite_Sta_Sta_Con:nth-child(2n + 2) {
+    float: right;
+    margin-right: -40%;
+}
 
-    /* // Titulo */
-    h4 {
-        font-size: 23px;
-        font-weight: 700;
-        margin: 0;
-        margin-bottom: 10px;
-        color: #c14000;
-        line-height: 23px;
-    }
+/* // Titulo */
+.Lin_Tem_Ite_Sta_Sta_Con h4 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 10px;
+    color: red;
+    line-height: 23px;
+}
 
-    /* // Paragrafo */
-    p {
-        font-size: 23px;
-        font-weight: 300;
-        margin: 0;
-        color: #000;
-        line-height: 23px;
-    }
+/* // Paragrafo */
+.Lin_Tem_Ite_Sta_Sta_Con p {
+    font-size: 23px;
+    font-weight: 300;
+    margin: 0;
+    color: var(--Tex000);
+    line-height: 23px;
+}
+
+.Lin_Tem_Ite_Sta_Sta_Con_Img{
+    text-align: center;
+    margin: 20px 0 0 0;
+    /* margin: 0 auto; */
+}
+
+.Lin_Tem_Ite_Sta_Sta_Con_Img img {
+    max-width: 100%;
 }
 
 .cntl-animate .Lin_Tem_Ite_Sta_Sta_Con {

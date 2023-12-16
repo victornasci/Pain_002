@@ -9,9 +9,10 @@ export const Menu = () => {
         <ul>
           <li>
             <Link to="/">Home</Link>
+            {/* <a href="/">Home</a> */}
           </li>
           <li>
-            <Link to="/sobre-nos">Sobre nós</Link>
+            <a href="/sobre-nos">Sobre nós</a>
           </li>
           <li>
             <a href="">Time</a>
