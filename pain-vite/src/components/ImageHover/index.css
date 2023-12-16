@@ -1,0 +1,19 @@
+.imagem-container {
+  position: relative;
+  overflow: hidden;
+  width: 65%;
+  /* Ajuste o tamanho conforme necessário */
+
+  object-fit: cover;
+}
+
+.imagem {
+  width: 100%;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.imagem:hover {
+  /* transform: scale(1.1); */
+  /* Ajuste conforme necessário para o efeito desejado */
+}

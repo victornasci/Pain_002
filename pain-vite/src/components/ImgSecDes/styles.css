@@ -1,0 +1,74 @@
+
+
+/* Imagens de destaque */
+.Sec_Des_Con_Img_Sec {
+    width: 100%;
+    display: flex;
+
+}
+
+/* Figcaption */
+.Sec_Des_Con_Img_Sec_Fig {
+    display: grid;
+    gap: 40px;
+    flex: 1 1 10px;
+    overflow: hidden;
+    place-items: end;
+
+}
+
+
+/* Imagens Sencudarias dos Destaques */
+.Img_Sec {}
+
+.Img_Sec a {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+}
+
+.Img_Sec:hover {}
+
+
+/* Id pessoal Delas em Ordem */
+#Img_Sec1 {
+    width: 300px;
+    height: 300px;
+}
+
+#Img_Sec1 .imagem-container {
+    width: 300px;
+    height: 300px;
+
+}
+
+
+#Img_Sec2 {
+    width: 100%;
+}
+
+#Img_Sec2 :hover {}
+
+#Img_Sec2 .imagem-container {
+    width: 400px;
+    height: 225px;
+}
+
+#Img_Sec3 {
+    width: 300px;
+    height: 300px;
+    padding-right: 5%;
+}
+
+#Img_Sec3 .imagem-container {
+    width: 300px;
+    height: 300px;
+}
+
+#Img_Sec4 {}
+
+#Img_Sec4 .imagem-container {}
+
+#Img_Sec5 {}
+
+#Img_Sec5 .imagem-container {}

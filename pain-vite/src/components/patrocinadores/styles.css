@@ -1,0 +1,21 @@
+/* Patrocinadores */
+
+.Est_Pat {
+    padding: 100px 0;
+}
+.Est_Pat .Est_Pat_Int .Est_Pat_Int_Lis {
+    display: flex;
+    gap: 20px;
+}
+
+.Est_Pat .Est_Pat_Int .Est_Pat_Int_Lis .Est_Pat_Int_Lis_Ite {
+    width: calc((100% / 5) - 20px);
+    max-height: 100px;
+}
+
+.Est_Pat .Est_Pat_Int .Est_Pat_Int_Lis .Est_Pat_Int_Lis_Ite img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: contrast(0.3);
+}

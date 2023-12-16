@@ -1,0 +1,22 @@
+/* Menu Lista Itens */
+.Hea_Con_Men {
+    display: flex;
+    flex-direction: row;
+}
+
+.Hea_Con_Men ul {
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+
+.Hea_Con_Men ul li a {
+    font-size: 22px;
+    color: var(--Bkg003);
+    transition: 0.3 all linear;
+}
+
+.Hea_Con_Men ul li a:hover {
+    color: red;
+    transition: 0.3 all linear;
+}

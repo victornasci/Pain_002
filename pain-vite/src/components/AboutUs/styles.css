@@ -1,0 +1,177 @@
+/* Menu Lista Itens */
+
+.Sob_Nos {
+    padding: 40px 0;
+}
+
+.Sob_Nos .Sob_Nos_Int .Sob_Nos_Int_001 {
+    color: var(--Tex000);
+}
+.Sob_Nos .Sob_Nos_Int .Sob_Nos_Int_001 .Sob_Nos_Int_001_Tit h1 {
+    color: var(--Tex002);
+    font-size: 40px;
+    margin: 0;
+
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #5d182a 0%,
+        #ce1d39 29%,
+        #ff0027 67%,
+        #ed2a48 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    /* font-size: 190px; */
+}
+
+.Sob_Nos .Sob_Nos_Int .Sob_Nos_Int_001 .Sob_Nos_Int_001_Tex p {
+    font-size: 18px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+/* .Sob_Nos_Int_003 h2 {
+    color: var(--Tex002);
+    text-align: center;
+    font-size: 60px;
+} */
+
+.Sob_Nos_Int_003_Tit {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid red;
+}
+.Sob_Nos_Int_003_Tit span {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: var(--Tex002);
+    color: white;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(0.2s * var(--i));
+}
+@keyframes flip {
+    0%,
+    80% {
+        transform: rotateY(360deg);
+        color: white;
+        color: var(--Tex002);
+    }
+}
+
+.Sob_Nos_Int_003 .Sob_Nos_Int_003_Gal {
+    display: grid;
+    grid-template-areas:
+        "Imagem001 Imagem001 Imagem001 Imagem001"
+        "Imagem002 Imagem002 Imagem003 Imagem003";
+    gap: 4px;
+}
+
+.Sob_Nos_Int_003 .Sob_Nos_Int_003_Gal .Sob_Nos_Int_003_Gal_Ite {
+    position: relative;
+}
+
+.Sob_Nos_Int_003
+    .Sob_Nos_Int_003_Gal
+    .Sob_Nos_Int_003_Gal_Ite:hover
+    .Sob_Nos_Int_003_Gal_Ite_Tex {
+    display: flex;
+    transition: 1s all linear;
+}
+
+.Sob_Nos_Int_003 .Sob_Nos_Int_003_Gal .Img_001 {
+    grid-area: Imagem001;
+}
+.Sob_Nos_Int_003 .Sob_Nos_Int_003_Gal .Img_002 {
+    grid-area: Imagem002;
+}
+.Sob_Nos_Int_003 .Sob_Nos_Int_003_Gal .Img_003 {
+    grid-area: Imagem003;
+}
+.Sob_Nos_Int_003 .Sob_Nos_Int_003_Gal .Sob_Nos_Int_003_Gal_Ite img {
+    width: 100%;
+}
+
+/* Texto da Imagem */
+.Sob_Nos_Int_003
+    .Sob_Nos_Int_003_Gal
+    .Sob_Nos_Int_003_Gal_Ite
+    .Sob_Nos_Int_003_Gal_Ite_Tex {
+    color: var(--Tex002);
+    position: absolute;
+    /* bottom: 20px;
+    left: 20px; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    display: none;
+    transition: 0.4s all linear;
+}
+
+.Sob_Nos_Int_003_Gal_Ite_Tex h2 {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    gap: 4px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.Sob_Nos_Int_003_Gal_Ite_Tex h2::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-image: url(../../assets/img/logo_branca.png);
+    background-size: contain;
+    transition: 0.4s all linear;
+}
+
+.Sob_Nos_Int_003_Gal_Ite_Tex h2,
+.Sob_Nos_Int_003_Gal_Ite_Tex p {
+    margin: 0 0 0 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.Sob_Nos_Int_003_Gal_Ite_Tex p {
+    font-size: 18px;
+    margin: 0 0 20px 20px;
+}
+
+.Sob_Nos_Int_003
+    .Sob_Nos_Int_003_Gal
+    .Sob_Nos_Int_003_Gal_Ite
+    .Sob_Nos_Int_003_Gal_Ite_Tex::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.5214460784313726) 0%,
+        rgba(0, 0, 0, 0.8155637254901961) 66%
+    );
+    transition: 0.4s all linear;
+}

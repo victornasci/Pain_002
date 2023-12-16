@@ -1,0 +1,21 @@
+.Sec_Des {
+    width: 100%;
+    height: calc(100vh - 100px);
+    max-height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+
+}
+
+/* Container */
+.Sec_Des_Con {
+    display: grid;
+    grid-template-columns: 1.0fr 1fr;
+    place-items: start;
+    max-height: 100%;
+    max-width: 1300px;
+    gap: 20px;
+
+}
