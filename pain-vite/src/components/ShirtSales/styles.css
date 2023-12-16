@@ -1,7 +1,7 @@
-main {
+.ContainerCards {
     display: flex;
     justify-content: center;
-    padding: 100px 0 0 0;
+
 }
 
 .Container_Ul {
@@ -24,8 +24,8 @@ main {
     padding: 0px;
     display: flex;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 38px;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+   
     background-color: black;
 }
 
@@ -176,6 +176,7 @@ figcaption img {
     font-size: 16px;
     color: white;
 }
-.Con_Buttons button:hover{
+
+.Con_Buttons button:hover {
     color: var(--Bkg002);
 }
