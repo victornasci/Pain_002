@@ -9,6 +9,7 @@ import LogoGif from "../../assets/img/Gif_Logo.mp4";
 // Importaação Icones Fontwelson Solid
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  // faHome,
   faMagnifyingGlass,
   faCartShopping,
 } from "@fortawesome/free-solid-svg-icons";
