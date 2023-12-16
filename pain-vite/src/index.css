@@ -96,3 +96,16 @@ button:focus-visible {
     width: calc(100% - 20px);
     margin: 0 auto;
 }
+
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #ff0000ad;
+    border-radius: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: black;
+}
