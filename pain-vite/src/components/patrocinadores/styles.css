@@ -20,19 +20,31 @@
     filter: contrast(0.3);
 } */
 
+.container_troci {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
 
 .Est_Pat {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Est_Pat_Int {
     --gap: 1rem;
-    padding: 30px 0;
+    padding: 40px 0;
     display: flex;
     overflow: hidden;
     user-select: none;
     gap: var(--gap);
     position: relative;
+    max-width: 1300px;
+
 }
 
 .Est_Pat_Int:hover .Est_Pat_Int_Lis {
@@ -74,6 +86,7 @@
     from {
         transform: translateX(-100%);
     }
+
     to {
         transform: translateX(calc(0% - var(--gap)));
     }
@@ -83,8 +96,8 @@
     from {
         transform: translateX(0);
     }
+
     to {
         transform: translateX(calc(-100% - var(--gap)));
     }
 }
-

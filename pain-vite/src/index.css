@@ -19,6 +19,7 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
 }
 
 
@@ -27,6 +28,9 @@ body {
     background-image: url(assets/img/bkg_body_black.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+#root{
+    width: 100%;
 }
 
 a {
