@@ -9,6 +9,41 @@ import LogoJbl from "../../assets/img/patrocinadores/jbl.png";
 import "./script.js";
 
 export const Patrocinadores = () => {
+<<<<<<< HEAD
+    return (
+        <div className="Est_Pat Cen_001">
+            <div className="Est_Pat_Int">
+                {/* Lista */}
+                <div className="Est_Pat_Int_Lis">
+                    {/* Item */}
+                    <div className="Est_Pat_Int_Lis_Ite">
+                        <img src={LogoTim} />
+                    </div>
+
+                    {/* Item */}
+                    <div className="Est_Pat_Int_Lis_Ite">
+                        <img src={LogoBmw} />
+                    </div>
+
+                    {/* Item */}
+                    <div className="Est_Pat_Int_Lis_Ite">
+                        <img src={LogoSubway} />
+                    </div>
+
+                    {/* Item */}
+                    <div className="Est_Pat_Int_Lis_Ite">
+                        <img src={LogoMotorola} />
+                    </div>
+
+                    {/* Item */}
+                    <div className="Est_Pat_Int_Lis_Ite">
+                        <img src={LogoJbl} />
+                    </div>
+                </div>
+
+                {/* <!--- Lista | Duplicado ---> */}
+                {/* <div class="Est_Pat_Int_Lis" data-role="double-content" aria-hidden="true"></div> */}
+=======
   return (
     <section className="container_troci">
       {/* <h1>
@@ -40,6 +75,7 @@ export const Patrocinadores = () => {
             {/* Item */}
             <div className="Est_Pat_Int_Lis_Ite">
               <img src={LogoTim} />
+>>>>>>> c006bbc1d1583740f89c7fdde26e579781f122ea
             </div>
 
             {/* Item */}
