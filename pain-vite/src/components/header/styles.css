@@ -79,9 +79,10 @@ header {
     width: 28px;
     display: block;
     text-align: center;
+    font-size: 26px;
 }
 
-.Hea_Red_Soc ul li a::before{
+.Hea_Red_Soc ul li a::before {
     width: 100%;
 }
 
@@ -115,4 +116,20 @@ header {
 
 .Hea_Red_Soc ul li:hover a::before {
     height: 100%;
+}
+
+.Hea_Sea nav {
+    display: flex;
+    gap: 12px;
+}
+
+.Hea_Sea a i::before {
+    font-size: 24px;
+    color: #6b6b6b;
+    /* font-weight: 100; */
+}
+
+.Hea_Sea a i:hover::before {
+    color: red;
+
 }

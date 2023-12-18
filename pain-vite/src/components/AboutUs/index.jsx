@@ -44,7 +44,7 @@ export const AboutUs = () => {
             <img src={LogoOffice} />
           </div>
 
-          <div className="Sob_Nos_Int_002_Tit">
+          {/* <div className="Sob_Nos_Int_002_Tit">
             <span style={{ "--i": "1" }}>P</span>
             <span style={{ "--i": "2" }}>A</span>
             <span style={{ "--i": "3" }}>I</span>
@@ -56,7 +56,7 @@ export const AboutUs = () => {
             <span style={{ "--i": "9" }}>I</span>
             <span style={{ "--i": "10" }}>N</span>
             <span style={{ "--i": "11" }}>G</span>
-          </div>
+          </div> */}
 
           <div className="Sob_Nos_Int_002_Gal">
             <div className="Sob_Nos_Int_002_Gal_Ite Img_001">
@@ -114,123 +114,95 @@ export const AboutUs = () => {
               </div>
               <div className="Lin_Tem_Ite_Sta_Sta">
                 <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
+                  <div className="Lin_Tem_Ite_Sta_Sta_Con_Tex">
+                    <h4>League of Legends</h4>
+                    <p>CBLOL 1º split 2022</p>
+                    <p>Campeão</p>
+                  </div>
+
+                  <div className="Lin_Tem_Ite_Sta_Sta_Con_Img">
+                    <img src={ImagemTrofeu} />
+                  </div>
                 </div>
+
                 <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
               </div>
               <div className="Lin_Tem_Ite_Sta_Sta">
                 <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
+                  <div className="Lin_Tem_Ite_Sta_Sta_Con_Tex">
+                    <h4>League of Legends</h4>
+                    <p>CBLOL 1º split 2022</p>
+                    <p>Campeão</p>
+                  </div>
+
+                  <div className="Lin_Tem_Ite_Sta_Sta_Con_Img">
+                    <img src={ImagemTrofeu} />
+                  </div>
                 </div>
+
                 <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
               </div>
               <div className="Lin_Tem_Ite_Sta_Sta">
                 <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
+                  <div className="Lin_Tem_Ite_Sta_Sta_Con_Tex">
+                    <h4>League of Legends</h4>
+                    <p>CBLOL 1º split 2022</p>
+                    <p>Campeão</p>
+                  </div>
+
+                  <div className="Lin_Tem_Ite_Sta_Sta_Con_Img">
+                    <img src={ImagemTrofeu} />
+                  </div>
                 </div>
+
                 <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
               </div>
               <div className="Lin_Tem_Ite_Sta_Sta">
                 <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
+                  <div className="Lin_Tem_Ite_Sta_Sta_Con_Tex">
+                    <h4>League of Legends</h4>
+                    <p>CBLOL 1º split 2022</p>
+                    <p>Campeão</p>
+                  </div>
+
+                  <div className="Lin_Tem_Ite_Sta_Sta_Con_Img">
+                    <img src={ImagemTrofeu} />
+                  </div>
                 </div>
+
                 <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
               </div>
               <div className="Lin_Tem_Ite_Sta_Sta">
                 <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
+                  <div className="Lin_Tem_Ite_Sta_Sta_Con_Tex">
+                    <h4>League of Legends</h4>
+                    <p>CBLOL 1º split 2022</p>
+                    <p>Campeão</p>
+                  </div>
+
+                  <div className="Lin_Tem_Ite_Sta_Sta_Con_Img">
+                    <img src={ImagemTrofeu} />
+                  </div>
                 </div>
+
                 <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
               </div>
               <div className="Lin_Tem_Ite_Sta_Sta">
                 <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
+                  <div className="Lin_Tem_Ite_Sta_Sta_Con_Tex">
+                    <h4>League of Legends</h4>
+                    <p>CBLOL 1º split 2022</p>
+                    <p>Campeão</p>
+                  </div>
+
+                  <div className="Lin_Tem_Ite_Sta_Sta_Con_Img">
+                    <img src={ImagemTrofeu} />
+                  </div>
                 </div>
+
                 <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
               </div>
-              <div className="Lin_Tem_Ite_Sta_Sta">
-                <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
-                </div>
-                <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
-              </div>
-              <div className="Lin_Tem_Ite_Sta_Sta">
-                <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
-                </div>
-                <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
-              </div>
-              <div className="Lin_Tem_Ite_Sta_Sta">
-                <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
-                </div>
-                <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
-              </div>
-              <div className="Lin_Tem_Ite_Sta_Sta">
-                <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
-                </div>
-                <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
-              </div>
-              <div className="Lin_Tem_Ite_Sta_Sta">
-                <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
-                </div>
-                <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
-              </div>
-              <div className="Lin_Tem_Ite_Sta_Sta">
-                <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
-                </div>
-                <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
-              </div>
-              <div className="Lin_Tem_Ite_Sta_Sta">
-                <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
-                </div>
-                <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
-              </div>
-              <div className="Lin_Tem_Ite_Sta_Sta">
-                <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
-                </div>
-                <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
-              </div>
-              <div className="Lin_Tem_Ite_Sta_Sta">
-                <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
-                </div>
-                <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
-              </div>
-              <div className="Lin_Tem_Ite_Sta_Sta">
-                <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
-                </div>
-                <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
-              </div>
-              <div className="Lin_Tem_Ite_Sta_Sta">
-                <div className="Lin_Tem_Ite_Sta_Sta_Con">
-                  <h4>2001</h4>
-                  <p>Teste La lal al al</p>
-                </div>
-                <div className="Lin_Tem_Ite_Sta_Sta_Ico Lin_Tem_Ite_Cen"></div>
-              </div>
+
             </div>
           </div>
         </div>
