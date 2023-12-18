@@ -7,6 +7,7 @@
 .Sob_Nos .Sob_Nos_Int .Sob_Nos_Int_001 {
     color: var(--Tex000);
 }
+
 .Sob_Nos .Sob_Nos_Int .Sob_Nos_Int_001 .Sob_Nos_Int_001_Tit h1 {
     color: var(--Tex002);
     font-size: 40px;
@@ -33,6 +34,10 @@
     /* font-size: 190px; */
 }
 
+.Sob_Nos_Int_001_Tex{
+    margin: 40px 0;
+}
+
 .Sob_Nos .Sob_Nos_Int .Sob_Nos_Int_001 .Sob_Nos_Int_001_Tex p {
     font-size: 18px;
 }
@@ -54,11 +59,11 @@
     margin: 60px auto 30px auto;
 }
 
-.Sob_Nos_Int_002 .Sob_Nos_Int_002_Img img{
+.Sob_Nos_Int_002 .Sob_Nos_Int_002_Img img {
     width: 100%;
 }
 
- .Sob_Nos_Int_002_Tit {
+.Sob_Nos_Int_002_Tit {
     position: relative;
     display: flex;
     justify-content: center;

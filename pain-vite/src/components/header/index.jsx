@@ -21,7 +21,7 @@ import { RedSoc } from "../fragments/RedSoc/index.jsx";
 export const Header = () => {
   return (
     <header>
-      <div className="Container">
+      <div className="Container" id="Topo">
         {/* Retornando Logo */}
         <div className="Hea_Con_Log">
           <Link to={"/"}>
@@ -41,10 +41,12 @@ export const Header = () => {
         <div className="Hea_Sea">
           <nav>
             <a href="">
-              <FontAwesomeIcon icon={faMagnifyingGlass} />
+              <i class="fa-solid fa-cart-shopping"></i>
+              {/* <FontAwesomeIcon icon={faMagnifyingGlass} /> */}
             </a>
             <a href="">
-              <FontAwesomeIcon icon={faCartShopping} />
+              <i class="fa-solid fa-magnifying-glass"></i>
+              {/* <FontAwesomeIcon icon={faCartShopping} /> */}
             </a>
           </nav>
         </div>

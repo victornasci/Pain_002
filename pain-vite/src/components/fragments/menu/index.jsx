@@ -18,7 +18,8 @@ export const Menu = () => {
             <a href="">Time</a>
           </li>
           <li>
-            <a href="">Contato</a>
+            {/* <a href="">Contato</a> */}
+            <Link to="/Contato">Contato</Link>
           </li>
         </ul>
       </nav>
