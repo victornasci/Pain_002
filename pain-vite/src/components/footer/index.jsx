@@ -1,23 +1,26 @@
 // Import Css
 import "../footer/styles.css";
 
-import LogoRodape from "../../assets/img/pain_gaming.png";
+import LogoRodape from "../../assets/img/logo_pain_gaming.png";
 
 // Import Logo
 import LogoGif from "../../assets/img/Gif_Logo.mp4";
+import LogoPain from "../../assets/img/logo_branca.png";
 
 import { RedSoc } from "../fragments/RedSoc";
 
 export const Footer = () => {
   return (
     <footer>
-      <div className="Est_Foo Cen_001">
-        <div className="Est_Foo_Int">
+      <div className="Est_Foo">
+        <div className="Est_Foo_Int Cen_001">
           {/* Area 001 */}
           <div className="Est_Foo_Int_Are_001">
             {/* lOGO Rodapé */}
             <div className="Est_Foo_Int_Are_001_Log">
-              <img src={LogoRodape} />
+              <a href="#Topo">
+                <img src={LogoRodape} />
+              </a>
             </div>
 
             {/* Redes Sociais */}
@@ -121,10 +124,13 @@ export const Footer = () => {
             </div>
 
             <div className="Est_Foo_Int_Are_003_Log">
-              <video autoPlay loop muted className="Hea_Gif_Log">
-                <source src={LogoGif} type="video/mp4" />
-                {/* Adicione outros formatos de vídeo se necessário */}
-              </video>
+              {/* <video autoPlay loop muted className="Hea_Gif_Log"> */}
+              {/* <source src={LogoGif} type="video/mp4" /> */}
+              {/* Adicione outros formatos de vídeo se necessário */}
+              {/* </video> */}
+              <a href="#Topo">
+                <img src={LogoPain} />
+              </a>
             </div>
           </div>
         </div>

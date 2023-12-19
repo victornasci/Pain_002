@@ -1,13 +1,9 @@
 header {
-
     width: 100%;
     padding: 20px 0;
     margin: 0 auto 10px auto;
     display: block;
     background-color: var(--Bkg000);
-    /* position: absolute; */
-    /* top: 0px; */
-    /* z-index: 2; */
     border-bottom: 2px solid var(--Bkg002);
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
         rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
@@ -25,7 +21,8 @@ header {
 }
 
 /* Logo Container */
-.Hea_Con_Log {}
+.Hea_Con_Log {
+}
 
 /* Logo Gif */
 .Hea_Gif_Log {
@@ -34,27 +31,105 @@ header {
 
 /* Icones Redes Sociais */
 
-.Hea_Red_Soc {}
+.Hea_Red_Soc {
+}
 
-.Hea_Red_Soc figcaption {
+.Hea_Red_Soc_Int {
     display: flex;
-    gap: 20px;
+    gap: 12px;
 }
 
-.Hea_Red_Soc figcaption .icone {
-    font-size: 22px;
-    color: var(--Bkg003);
+.Hea_Red_Soc_Int i {
+    color: #8f8f8f;
+    font-size: 24px;
 }
 
-/* Parte da procura Carrinho e Lupa */
-.Hea_Sea {}
+.Hea_Red_Soc ul {
+    position: relative;
+    display: flex;
+}
+
+.Hea_Red_Soc ul li {
+    position: relative;
+    list-style: none;
+    /* margin: 0 20px; */
+    cursor: pointer;
+}
+
+.Hea_Red_Soc ul li a .fa-brands,
+.Hea_Red_Soc ul li a .fab {
+    font-size: 24px;
+    color: #6b6b6b;
+    font-weight: 100;
+}
+
+.Hea_Red_Soc ul li a::before {
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 1px;
+    left: 0;
+    font-size: 24px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.9s ease-in-out;
+}
+
+.Hea_Red_Soc ul li a {
+    text-decoration: none;
+    width: 28px;
+    display: block;
+    text-align: center;
+    font-size: 26px;
+}
+
+.Hea_Red_Soc ul li a::before {
+    width: 100%;
+}
+
+.Hea_Red_Soc ul li:nth-child(1) a::before {
+    content: "\f16d";
+    color: red;
+}
+
+.Hea_Red_Soc ul li:nth-child(2) a::before {
+    content: "\e61b";
+    color: red;
+}
+.Hea_Red_Soc ul li:nth-child(3) a::before {
+    content: "\f232";
+    color: red;
+}
+
+.Hea_Red_Soc ul li:nth-child(4) a::before {
+    content: "\f39e";
+    color: red;
+}
+.Hea_Red_Soc ul li:nth-child(5) a::before {
+    content: "\e07b";
+    color: red;
+}
+
+.Hea_Red_Soc ul li:nth-child(6) a::before {
+    content: "\f167";
+    color: red;
+}
+
+.Hea_Red_Soc ul li:hover a::before {
+    height: 100%;
+}
 
 .Hea_Sea nav {
     display: flex;
-    gap: 20px;
+    gap: 12px;
 }
 
-.Hea_Sea nav a {
-    font-size: 22px;
-    color: var(--Bkg003);
+.Hea_Sea a i::before {
+    font-size: 24px;
+    color: #6b6b6b;
+    /* font-weight: 100; */
+}
+
+.Hea_Sea a i:hover::before {
+    color: red;
+
 }

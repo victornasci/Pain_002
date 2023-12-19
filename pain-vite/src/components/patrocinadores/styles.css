@@ -25,7 +25,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 0 50px 0;
+    margin: 100px 0 0px 0;
 }
 
 .Est_Pat {
@@ -37,14 +37,13 @@
 
 .Est_Pat_Int {
     --gap: 1rem;
-    padding: 40px 0;
+    /* padding: 40px 0; */
     display: flex;
     overflow: hidden;
     user-select: none;
     gap: var(--gap);
     position: relative;
     max-width: 1300px;
-
 }
 
 .Est_Pat_Int:hover .Est_Pat_Int_Lis {
@@ -81,6 +80,11 @@
 /* .Est_Pat_Int_Lis_Ite {
     animation: ScrollLeft infinite linear 40s;
 } */
+.Est_Pat_Int_Lis_Ite {
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
 
 @keyframes ScrollRight {
     from {
